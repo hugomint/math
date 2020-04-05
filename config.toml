@@ -9,7 +9,15 @@ googleAnalytics         = ""
 pluralizeListTitles     = false
 disableLanguages        = [""]
 
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
 [params]
+  math = true
   # Add additional section names to mainSections to include posts from
   # those sections on the homepage.
   enableCDN             = false

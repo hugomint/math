@@ -6,6 +6,7 @@ description = "A brief description of Hugo Shortcodes"
 tags = ["shortcodes","privacy","markdown"]
 categories = [""]
 images = ["img/2017/08/pic04.jpg", "img/2014/04/pic01.jpg"]
+math = true
 +++
 
 Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes) for rich content, along with a [Privacy Config](https://gohugo.io/about/hugo-and-gdpr/) and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
@@ -14,7 +15,7 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 
 ## Instagram Simple Shortcode
 
-{{< instagram_simple BGvuInzyFAe hidecaption >}}
+{{< instagram_simple BhPMTWOgS2F >}}
 
 <br>
 

@@ -2621,3 +2621,7 @@ $comment-content-vsep: 1.5em;
     page-break-after: avoid;
   }
 }
+
+.disabled {
+  display: none;
+}
