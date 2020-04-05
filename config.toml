@@ -3,7 +3,7 @@ DefaultContentLanguage  = "en"
 title                   = "Hugo Future Imperfect Slim"
 theme                   = "m"
 preserveTaxonomyNames   = true
-paginate                = 3
+paginate                = 2
 disqusShortname         = ""
 googleAnalytics         = ""
 pluralizeListTitles     = false
@@ -80,7 +80,7 @@ disableLanguages        = [""]
       alt                 = "Hugo Future Imperfect Slim"
 
   [params.sidebar]
-    about               = "test"
+    about               = "It makes use of a variety of open source projects including."
     # Sets the number of recent posts to show in the sidebar. The default value is 5.
     postAmount          = 5
     # set to show or to hide categories in the sidebar

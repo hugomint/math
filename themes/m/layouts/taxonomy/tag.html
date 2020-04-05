@@ -8,10 +8,12 @@
       <main id="site-main">
         <h1>{{ .Title }}</h1>
         {{ $paginator := .Paginate (where .Data.Pages "Type" "in" site.Params.mainSections) }}
-        {{ range $paginator.Pages }}
-            {{ .Render "content-list" }}
+        {{ range $i, $e := $paginator.Pages }}
+            {{ $e.Render "content-list" }}
         {{ end }}
+
         {{ partial "pagination" . }}
+
       </main>
       {{ partial "site-sidebar" . }}
       {{ partial "site-footer" . }}
