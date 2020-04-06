@@ -4,7 +4,6 @@ author = "Amazon"
 categories = []
 date = 2020-04-05T14:00:00Z
 description = "About a year ago (April, 2018), AWS introduced AWS Secrets Manager. Secrets Manager is a service that helps you protect access to your applications, services, and IT resources."
-draft = true
 images = ["/img/inline3.png"]
 tags = []
 title = "Dirty Secrets"
