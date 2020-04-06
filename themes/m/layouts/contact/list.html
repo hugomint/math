@@ -7,6 +7,7 @@
       {{ partial "site-intro" . }}
       <main id="site-main">
         <article class="post">
+          
           <header>
             <div class="title">
               {{ if $.Scratch.Get "h1" }}
@@ -16,8 +17,16 @@
                 <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
               {{ end }}
               {{ with .Description }}<p>{{ . }}</p>{{ end }}
+              <h2>{{ .Params.emailservice }}</h2>
+              <p>
+              {{ range .Pages }}
+                {{ . }}
+              {{ end }}
+              </p>
+              {{ i18n "repliestext" 1 }}
             </div>
           </header>
+
             <div id="content">
               {{ .Content }}
               <div class="contact-container">
