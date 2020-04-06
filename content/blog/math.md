@@ -1,14 +1,14 @@
 +++
-author = "Hugo Authors"
-title = "Math Typesetting"
-date = "2019-03-08"
-description = "A brief guide to setup KaTeX"
-math = "true"
-tags = ["markdown","text"]
+author = "David Freddy"
 categories = ["math"]
-images  = ["img/math.jpg"]
-+++
+date = 2019-03-08T00:00:00Z
+description = "A brief guide to setup KaTeX"
+images = ["img/math.jpg"]
+math = "true"
+tags = ["markdown", "text"]
+title = "Math Typesetting"
 
++++
 HTML tags in markdown
 
 https://jdhao.github.io/2019/12/29/hugo_html_not_shown/
