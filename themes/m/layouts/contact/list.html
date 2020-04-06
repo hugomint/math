@@ -19,9 +19,7 @@
               {{ with .Description }}<p>{{ . }}</p>{{ end }}
               <h2>{{ .Params.emailservice }}</h2>
               <p>
-              {{ range .Pages }}
-                {{ . }}
-              {{ end }}
+
               </p>
               {{ i18n "repliestext" 1 }}
             </div>
